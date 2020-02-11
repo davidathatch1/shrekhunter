@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+body {
+  margin: 0;
+
+  font-family: 'Lato', sans-serif;
+}
+
+#header {
+  background-color: #E39E14;
+  height: 150px;
+  line-height: 150px;
+}
+
+#header .title {
+  display: block;
+  float: left;
+  padding-left: 20px;
+  margin-top: 0;
+  vertical-align: middle;
+  min-width: 300px;
+}
+
+#header .header-links {
+  min-width: 300px;
+  display: block;
+  float: right;
+}
+
+#header .header-links {
+  margin: 0;
+}
+
+#header li {
+  display: inline;
+  padding-right: 20px;
+  vertical-align: middle;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+ a:hover {
+  color: #A7A7A7;
+}
+
+#content {
+  padding-top: 50px;
+  padding-left: 100px;
+}
+
+#content img {
+  height: 50px;
+  width: 50px;
+  display: block;
+  float: left;
+  padding-right: 10px;
+  border-radius: 25%;
+}
+
+#content .post-author {
+  display: block;
+  float: inherit;
+  margin: auto;
+}
+
+#content .date {
+  display: block;
+  float: inherit;
+  color: gray;
+  padding-top: 10px;
+}
+
+#content .about-post {
+  padding-bottom: 20px;
+}
+
+#content .post-title {
+  text-transform: uppercase;
+  text-transform: bold;
+  padding-left: 15px;
+}
+
+#content p {
+  padding: 15px;
+  color: gray;
+  padding-bottom: 25px;
+}
+
+#footer {
+  background-color: #CBCBCB;
+  color: white;
+}
+
+#footer h3 {
+  margin: auto;
+}
+
+#footer .short-bio {
+  display: block;
+  float: left;
+  padding: 30px;
+  vertical-align: middle;
+}
+
+#footer .column {
+  display: inline-block;
+  min-width: 300px;
+}
+
+#footer ul {
+  float: right;
+}
+
+#footer .socials {
+  vertical-align: middle;
+  padding-right: 150px;
+  padding-top: 30px;
+  text-decoration: none;
+}
+
+.findshrek {
+  display: block;
+  vertical-align: middle;
+}
